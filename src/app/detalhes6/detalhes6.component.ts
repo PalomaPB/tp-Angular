@@ -15,7 +15,7 @@ export class Detalhes6Component implements OnInit {
   ngOnInit() {
     this.route.paramMap.subscribe(
       param => {
-        this.data = ciclo[param.get('index')];
+        this.data = ciclo6[param.get('index')];
       }
     );
   }
